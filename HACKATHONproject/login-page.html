@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="page1style.css">
+    <script src="https://kit.fontawesome.com/5a30c29e6b.js" crossorigin="anonymous"></script>
+    <style>
+        
+        body {
+            background-image: url(old1.jpg) ;
+            background-color: rgb(168, 153, 153);
+            background-blend-mode: multiply;
+            background-size: cover;
+        }
+
+        .crt-account {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .left-box {
+            display: inline-block;
+        }
+
+        .signup-box {
+            margin: 3em 0em 3em 36em;
+            height: fit-content;
+            width: fit-content;
+            padding: 2em 2em 2em 2em;
+            border-radius: 2%;
+            border-width: 0.5px;
+            background-color: whitesmoke;
+            
+        }
+
+        .input-box {
+            height: 35px;
+            width: 300px;
+        }
+
+        #submit {
+            height: 30px;
+        }
+
+        @media(hover:hover) {
+            .signup-box:hover {
+                box-shadow: 2px 2px 4px rgb(89, 89, 89);
+                transition-delay: 50ms;
+                transition-duration: 100ms;
+            }}
+      
+    </style>
+</head>
+
+<body>
+    <div class="hero" id="hackathon">
+        <br>
+        <h1 class="crt-account" style="color: whitesmoke;">Create An Account</h1>
+        <div class="signup-box" id="abc">
+            <div class="left-box">
+                <input type="text" placeholder="Enter Your Name" required class="input-box"><br><br>
+                <input type="text" placeholder="Enter Username" required class="input-box"><br><br>
+                <input type="email" placeholder="Enter E-mail Id" required class="input-box"><br><br>
+                <input type="password" placeholder="Create Password" required class="input-box"><br><br><br>
+                <input type="checkbox" id="terms">
+                <label for="terms">I accept the terms & conditions.</label><br><br>
+                <button type="submit" id="submit" onclick="location.href='homepage.html' ">SIGN UP</button><br>
+                </form>
+                <br>
+                <div class="right-box">
+                    <div>
+                        <!-- <a href=""><i class="fa-brands fa-facebook"></i>Connect with Facebook</a><br>
+                    <a href=""><i class="fa-brands fa-twitter"></i>Connect with Twitter</a><br>
+                    <a href=""><i class="fa-brands fa-instagram"></i>Connect with Instagram</a><br>
+                    <a href=""><i class="fa-brands fa-google"></i>Connect with Google</a><br> -->
+                    </div>
+                    <p class="login-msg">Already Have An Account? <a href="signup.html" style="text-decoration: none;">Login Now</a></p>
+
+                </div>
+                
+            </div>
+            
+        </div>
+        <br>
+        <br>
+    </div>
+</body>
+</html>

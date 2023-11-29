@@ -1,0 +1,26 @@
+body{background-color: white;}
+.crt-account{ font-size: 50px;
+              text-align:center;
+}
+
+.left-box{display:inline-block;}
+.signup-box{ margin:3em 0em 3em 36em ;
+             height: fit-content;
+             width:fit-content;
+             padding:2em 2em 2em 2em;
+             border-radius:2%;
+             border-width:3px;
+             background-color: whitesmoke;
+}
+.input-box{height: 35px;
+           width: 300px;
+}
+#submit{height: 30px;}
+@media(hover:hover){
+    .signup-box:hover{
+        box-shadow: 2px 2px 4px rgb(89, 89, 89);
+        transition-delay: 50ms;
+        transition-duration: 100ms;
+    }
+}  
+

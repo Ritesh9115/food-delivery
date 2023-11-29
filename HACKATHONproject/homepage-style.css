@@ -1,0 +1,119 @@
+
+content{ display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding:2em 2em 2em 2em;
+    width: 100%;
+}
+
+
+.cover{background-image: url(/HACKATHONprojpics/junk\ food.avif);
+       height: 12em;
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+.bh1{display:flex;
+    flex-wrap: wrap;
+}
+
+     
+
+.search-and-button{display:flex;
+                    flex-direction: row;
+                    height:100%;
+                    width: 100%;
+                    justify-content: center;
+                    align-items: center;
+}
+
+
+.hostelname{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    width: 100%;
+    padding-left: 1em;
+}
+body{background-image:linear-gradient(#72ADB3,#3E5E61,#243638);
+    z-index: -7;
+    width:98.4%;
+    perspective: 10px;
+                            
+}
+.searchcontainer{display:flex;
+                
+}
+
+
+
+      
+
+.card{display:flex;
+    flex-direction: column;
+    justify-content: start;
+     height: 20em; /*330*/
+      width:300px; /*300*/
+      background-color:#A8D0D2;
+      margin: 0.3em 2em 0.3em 2em;
+      padding: 0em;
+      border-width: 1px;
+      border-radius:4% 4% 3% 3%;
+      
+      z-index:3;
+      perspective: 20px;
+
+}
+.details{display: flex;
+         flex-direction: column;
+         justify-content: start;
+         align-items: center;
+         padding: 0.4em;
+         margin:0.6em;
+
+}
+.cardimage{border-top-left-radius: 6%;
+        border-top-right-radius: 4%;
+        padding: 0px;
+}
+
+.Restaurant-name{display: flex;
+                justify-content: start;
+                 width: 100%;
+                 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                 font-size:20px;
+                 padding: 0.4em 0em 0.4em 0em;
+                 margin-top: 0em;
+
+                 
+}
+.description{padding: 0em;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color:rgb(51, 51, 51);
+}
+.searchtab{display:inline-flex;
+    align-items: center;
+            
+}
+.searchbar{margin:2em 1em 2em 1em;
+           height: 40px;
+           width:400px;
+           font-size:larger;
+    
+}
+#searchbutton{height: 40px;
+                width:60px;
+}
+footer{margin-bottom: 0.5em;
+        margin-top:0.5em;
+        padding:2em 2em 2em 2em;
+        background-color:rgb(25, 25, 25);
+
+}
+#contactus{color:whitesmoke;}
+.fa-brands{font-family:sans-serif;}
+
+@media(hover:hover){
+    .card:hover{
+        box-shadow: 4px 4px 18px 9px #3E5E61;
+        transition-delay: 1ms;
+        transition-duration: 100ms;
+    }
+}

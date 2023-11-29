@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="page1style.css">
+    <script src="https://kit.fontawesome.com/5a30c29e6b.js" crossorigin="anonymous"></script>
+    <style>
+        
+        body {
+            background-image: url(3.jpg);
+            background-color: rgb(168, 153, 153);
+            background-blend-mode: multiply;
+            background-size: cover;
+        }
+            
+        
+
+        .crt-account {
+            font-size: 50px;
+            text-align: center;
+            color: white;
+        }
+
+        .left-box {
+            display: inline-block;
+        }
+
+        .signup-box {
+            margin: 3em 0em 3em 36em;
+            height: fit-content;
+            width: fit-content;
+            padding: 2em 2em 2em 2em;
+            border-radius: 2%;
+            border-width: 0.5px;
+            background-color: whitesmoke;
+        
+        }
+
+        .input-box {
+            height: 35px;
+            width: 300px;
+        }
+
+        #submit {
+            height: 30px;
+        }
+
+        @media(hover:hover) {
+            .signup-box:hover {
+                box-shadow: 2px 2px 4px rgb(89, 89, 89);
+                transition-delay: 50ms;
+                transition-duration: 100ms;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <h1 class="crt-account">Login Into Your Account</h1>
+        <div class="signup-box">
+            <div class="left-box">
+                <P><strong>USERNAME</strong></P>
+                <input type="text" placeholder="Enter Username" required class="input-box"><br><br>
+                <P><strong>PASSWORD</strong></P>
+                <input type="password" placeholder=" Enter Password" required class="input-box"><br><br><br>
+                <button type="submit" id="submit" onclick="location.href='homepage.html' ">SIGN UP</button><br>
+                </form>
+                <br>
+              
+            </div>
+        </div>
+    </div>
+</body>
+</html>
